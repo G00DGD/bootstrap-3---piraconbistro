@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #000;
+}
+
+.section-title {
+    font-family: 'Pirata One', sans-serif;
+    text-transform: uppercase;
+}
+
+#cabecalho .nav .nav-link, .navbar-brand, .navbar-brand:hover, .nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #000;
+}
