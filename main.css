@@ -17,7 +17,35 @@ header {
     color: #fff;
 }
 
+#cabecalho .nav .nav-link:hover {
+    color: #da3a3a;
+}
+
 #cabecalho .nav .nav-link.active {
     background-color: #fff;
     color: #000;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #000;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.nav-link:hover {
+    color: #da3a3a;
+}
+
+.image-adjust {
+    height: 230px;
+    width: 356px;
+    overflow: hidden;
+}
+
+.image-card {
+    height: 200px;
+    width: 180px;
+    overflow: hidden;
 }
