@@ -39,10 +39,11 @@ header {
 }
 
 .image-adjust {
-    height: 230px;
-    width: 356px;
-    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    display: block; /* Isso evita espaços indesejados abaixo da imagem */
 }
+
 
 .image-card {
     height: 200px;
