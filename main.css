@@ -41,8 +41,11 @@ header {
 .image-adjust {
     max-width: 100%;
     height: auto;
-    display: block; /* Isso evita espaços indesejados abaixo da imagem */
+    display: block;
+    width: 100%; /* Define a largura máxima em relação ao contêiner pai */
+    max-height: 230px; /* Define a altura máxima desejada */
 }
+
 
 
 .image-card {
